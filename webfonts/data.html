@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature and Humidity Sensor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-toma">
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a href="" class="navbar-brand">Modest</a>
+            <ul class="navbar-nav ms-auto">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                
+                <li><a href="value.html" class="nav-link">Data</a></li>
+
+				
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Features
+				  </a>
+				  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+					<li><a class="dropdown-item" href="detail\temp1.html">DHT11 Sensor</a></li>
+					<li><a class="dropdown-item" href="detail\temp2.html">Benefit of DHT11 Sensor</a></li>
+					<li><a class="dropdown-item" href="detail\soil1.html">Soil Moisture Sensor</a></li>
+					<li><a class="dropdown-item" href="detail\soil2.html">Benefits of Soil Moisture Sensor</a></li>
+					<li><a class="dropdown-item" href="detail\col1.html">Color Sensor</a></li>
+					<li><a class="dropdown-item" href="detail\col2.html">Benefits of Color Sensor</a></li>
+				  </ul>
+				</li>
+		
+		
+            </ul>
+        </div>
+    </nav>
+	
+	
+    <section>
+        
+            <div class="col-xl-7 py-5 bg-cs">
+                <div class="container" >
+                    <div class="c-font">
+                        <h1 align="center" >Temperature and Humidity Sensor</h1>
+							<table align="center" border=2 bordercolor="#0000FF">
+							<tr><td colspan="2">
+							<h1 align="center" >Sensor Data Show</h1>
+							</td></tr>
+							
+							<tr><td><h4 align="center" >Temperature</h4></td>
+							<td><h4 align="center" >Humidity</h4></td></tr>
+							
+							
+							<tr><td>
+							<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1713074/widgets/468699"></iframe>
+							</td>
+							<td><iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1713074/widgets/468702"></iframe>
+
+							</td></tr>
+							<tr></td>
+							<td><iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1713074/widgets/477044"></iframe>
+
+
+							</td></tr>
+							</td>
+							</table>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+	
+	<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
+
+<!--  style="color: #FFFFFF"  -->

@@ -1,0 +1,49 @@
+.h-500 {height: 500px}
+.h-300 {height: 300px}
+
+.my-caption {
+    width: 700px;
+    left: 100px;
+    bottom: 50px;
+    text-align: left;
+}
+.carousel-view-button a:hover {
+    background-color: #0a53be;
+    color: white;
+}
+
+.f-s-32 {
+    font-size: 32px;
+}
+.font-wight-light {
+    font-weight: lighter;
+}
+
+.text-justify {
+    text-align: justify;
+}
+.number-box {
+    background-color: #23b7a4;
+    height: 50px;
+    width: 50px;
+}
+
+.modest-social-div {
+    height: 60px;
+    width: 60px;
+    background-color: lightgrey;
+}
+.lovely-section {
+    background-color: #3a454d;
+}
+.left-bold-border {
+    height: auto;
+    border-left: 10px solid lightgray !important;
+}
+
+.bg-toma {
+    background-image: url(../img/t4.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background: rgba(0, 0, 0, 0.3);
+}

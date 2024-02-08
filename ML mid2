@@ -1,0 +1,42 @@
+Support Vector Machine Algorithm
+
+https://www.javatpoint.com/machine-learning-support-vector-machine-algorithm
+https://www.geeksforgeeks.org/support-vector-machine-algorithm/
+https://www.freecodecamp.org/news/svm-machine-learning-tutorial-what-is-the-support-vector-machine-algorithm-explained-with-code-examples/
+https://towardsdatascience.com/support-vector-machines-a-brief-overview-37e018ae310f
+
+Maximum Margin Classifier
+https://towardsdatascience.com/support-vector-machines-a-brief-overview-37e018ae310f
+
+What is Kernel
+https://techvidvan.com/tutorials/svm-kernel-functions/
+https://data-flair.training/blogs/svm-kernel-functions/
+
+The Kernel Trick
+https://analyticsindiamag.com/how-do-kernels-learn-non-linear-functions/
+
+Gaussian Process Kernels
+https://medium.com/dataseries/radial-basis-functions-rbf-kernels-rbf-networks-explained-simply-35b246c4b76c
+
+Logisitic Reg:
+
+Gradient Descent — the algorithm by step by step
+https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31
+https://www.geeksforgeeks.org/ml-stochastic-gradient-descent-sgd/
+
+https://www.baeldung.com/cs/gradient-descent-logistic-regression#:~:text=Gradient%20descent%20is%20an%20iterative,optimal%20ones%2C%20minimizing%20the%20output.
+
+Stochastic gradient descent
+https://realpython.com/gradient-descent-algorithm-python/#:~:text=Stochastic%20gradient%20descent%20is%20an,used%20in%20machine%20learning%20applications.
+
+Logistic Regression
+https://www.geeksforgeeks.org/understanding-logistic-regression/
+https://www.spiceworks.com/tech/artificial-intelligence/articles/what-is-logistic-regression/
+
+Difference between Batch Gradient Descent and Stochastic Gradient Descent
+https://www.geeksforgeeks.org/difference-between-batch-gradient-descent-and-stochastic-gradient-descent/
+https://towardsdatascience.com/batch-mini-batch-stochastic-gradient-descent-7a62ecba642a#:~:text=Batch%20Gradient%20Descent%20can%20be,converges%20faster%20for%20larger%20datasets.
+
+L1 vs L2 Regularization: 
+https://medium.com/analytics-vidhya/l1-vs-l2-regularization-which-is-better-d01068e6658c
+https://neptune.ai/blog/fighting-overfitting-with-l1-or-l2-regularization#:~:text=The%20differences%20between%20L1%20and,regularization%20solution%20is%20non%2Dsparse.

@@ -1,0 +1,66 @@
+.bg-toma {
+    background-image: url(../img/tomatoes.jpg) ;
+
+    background-repeat: no-repeat;
+}
+
+.dp-toma {
+    background-image: url(../img/istockphoto-1312279596-170667a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tp-toma {
+    background-image: url(../img/Picking-Tomatoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rp-toma {
+    background-image: url(../img/1000_F_127823770_qQ9ixVRRjALWJ9eJw5zNqjGTlakx73Wn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sp-toma {
+    background-image: url(../img/__opt__aboutcom__coeus__resources__content_migration__treehugger__images__2019__06__tomatoes-container-ee06e4801e574f5eba9227f42ff7172d.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.vp-toma {
+    background-image: url(../img/Picking-Tomatoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-cs {
+    background-color: #0b9dc9ab;
+}
+
+.c-font {
+    font-family: 'Noto Sans', sans-serif;
+    color: #ffff;
+}
+
+ul{
+    list-style: none;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px 5px;
+    margin: 2px 0;
+}
+
+.fa.fa-circle {
+    font-size: 22px;
+    color: #ffff;
+    padding-right: 10px;
+}

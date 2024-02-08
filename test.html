@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+<title>fetch Method</title>
+</head>
+<body>
+<script>
+var t = "0";
+var h;
+var m;
+// API for get requests
+let fetchRes = fetch(
+"https://api.thingspeak.com/channels/1713074/feeds.json?results=2");
+// fetchRes is the promise to resolve
+// it by using.then() method
+fetchRes.then(res =>
+res.json()).then(d => {
+t = d.feeds[0].field1;
+h = d.feeds[0].field2;
+m = d.feeds[0].field3;
+
+// console.log(d.feeds[0].field1)
+// console.log(d.feeds[0].field2)
+// console.log(d.feeds[0].field3)
+
+})
+
+function myFunction() {
+console.log(t)
+console.log(h)
+console.log(m)
+}
+</script>
+
+<p>Click the following button to see the function in action</p>  
+<input type = "button" onclick = "myFunction()" value = "Display">
+
+
+
+</body>
+</html>
